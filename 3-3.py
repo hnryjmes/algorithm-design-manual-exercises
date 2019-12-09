@@ -50,15 +50,3 @@ class LinkedList():
         self.head = Node(value)
         self.tail = self.head
         
-    
-my_linked_list = LinkedList()
-
-my_linked_list.add_node(1)
-my_linked_list.add_node(3)
-my_linked_list.add_node(5)
-my_linked_list.add_node(7)
-my_linked_list.add_node(9)
-
-my_linked_list.reverse()
-
-my_linked_list.print_list()
